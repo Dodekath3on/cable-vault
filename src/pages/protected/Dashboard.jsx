@@ -91,7 +91,7 @@ function Dashboard() {
     <main className='flex'>
       <Sidebar projects={dashboardContent}/>
       <section className='p-6 w-screen'>
-        <h2 className='text-2xl'>Overview</h2>
+        <h2 className='text-3xl font-bold m-4'>{dashboardContent[0].name} Overview</h2>
         <Table project={dashboardContent[0]}/>
       </section>
     </main>
